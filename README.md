@@ -55,7 +55,7 @@ The following questions required additional research, external data integration,
 **-------------------------------------------------------------------------------------------------------------------------------------------------**
 
 
-**#📊 What I Did**
+#**📊 What I Did**
 
 ✔ 1. Identified top cities with worsening AQI trends
 
