@@ -1,5 +1,6 @@
 # Air-Pollution-Analytics
 India is one of the most pollution-affected countries globally, making air quality a critical public-health and consumer-market concern.
+
 AirPure Innovations needed to determine:
 
 Where to launch their air purifier
@@ -13,6 +14,7 @@ How they compare to existing competitors
 To solve this, I built a fully navigable insight-rich dashboard and performed both Primary & Secondary analysis to answer 12 complex business questions.
 
 **📊 What I Did**
+
 ✔ 1. Identified top cities with worsening AQI trends
 
 Analyzed multi-year AQI data to classify cities into high-risk, moderate-risk, and rising-risk segments.
