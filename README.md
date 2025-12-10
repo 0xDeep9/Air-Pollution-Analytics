@@ -1,27 +1,5 @@
 # Air-Pollution-Analytics
 
-# **Table of Content**
-
-* **About AirPure Innovations**
-* **Objective of the Project**
-* **Problem Statement**
-* **Air Quality Analysis**
-* **Pollutant Breakdown & Seasonal Trends**
-* **Google Trends Demand Analysis**
-* **Market Opportunity & City Prioritization**
-* **Competitor Benchmarking**
-* **Feature Gap Matrix**
-* **Recommendations for Product Launch**
-* **Footer**
-
----
-
-# **About AirPure Innovations**
-
-AirPure Innovations is a consumer health-tech startup aiming to introduce a new line of affordable, high-efficiency air purifiers for the Indian market. With increasing pollution levels and rising public health concerns, the company seeks to identify the right product-market fit and launch strategy before entering this highly competitive market.
-
----
-
 # **Objective of the Project**
 
 The objective of this project is to perform an end-to-end data-driven analysis of India’s air quality, consumer interest, and competitive landscape to guide AirPure Innovations in:
@@ -36,183 +14,48 @@ The insights from this project provide a **strategic roadmap** for AirPure’s m
 
 ---
 
-# **Problem Statement**
+# Insights Covered in the Dashboard
 
-To determine the right product-market fit for an air purifier in India, key questions needed to be answered:
+**1. Top and bottom AQI areas**
 
-### **Air Quality Assessment**
+<img width="1287" height="660" alt="image" src="https://github.com/user-attachments/assets/90730f29-4745-4788-988a-b745ada2e84e" />
 
-* Which cities face the highest pollution levels (AQI)?
-* How has air quality changed over time?
-* What pollutants dominate (PM2.5, PM10, NO₂, SO₂)?
 
-### **Seasonal & Trend Behavior**
+* The first part of the analysis looked at pollution levels between December 2024 and May 2025. Cities like Byrnihat, Delhi, and Hajipur showed extremely high average AQI, while places like Tirunelveli and Madikeri remained consistently clean. This helped identify potential high-demand zones for purifiers.
 
-* Which months show critical spikes in pollution?
-* How do AQI patterns correlate with weather or festivals (e.g., Diwali)?
+**2. Prominent pollutants in Southern Indian states**
 
-### **Public Demand & Awareness**
+<img width="1280" height="689" alt="image" src="https://github.com/user-attachments/assets/5180d7a2-53bf-47d6-bdad-f30145da5c01" />
 
-* Are people searching more for terms like *“air purifier”, “AQI today”, “N95 mask”*?
-* How does demand vary regionally and seasonally?
 
-### **Market Opportunity**
+* Using post-COVID data from 2022 onward, I identified that PM10 and PM2.5 remain the dominant pollutants across Karnataka, Tamil Nadu, Andhra Pradesh, Kerala, and Telangana. This reinforced the need for strong particulate filtration features.
 
-* Which cities show both *high pollution* and *high consumer interest*?
-* What is the potential launch priority ranking?
+**3. Weekday vs weekend AQI patterns**
 
-### **Competitor Benchmarking**
+<img width="1021" height="677" alt="image" src="https://github.com/user-attachments/assets/46135b68-53e9-4f81-98fa-c684a754a749" />
 
-* How do current brands (Dyson, Philips, Xiaomi, Honeywell) perform?
-* What features, technologies, and price brackets dominate the market?
+* By comparing weekday and weekend AQI in major metros, I found that most cities showed noticeable improvement on weekends. This suggests that traffic and industrial activity contribute heavily to weekday pollution levels.
 
-### **Feature Gap Identification**
+**4. Monthly AQI patterns across top states**
 
-* Which features are missing in existing models?
-* What can be added to make AirPure’s product stand out?
+<img width="1146" height="698" alt="image" src="https://github.com/user-attachments/assets/84a66c49-a45e-416a-9a9e-a75fcb76ef5c" />
 
----
+* A heatmap and trend chart revealed that November to January consistently record the worst AQI across top states. This seasonal spike is important for planning marketing campaigns and stocking strategies.
 
-# **Air Quality Analysis**
+**5. Bengaluru’s air quality distribution**
 
-A detailed Power BI dashboard was created to explore India's air quality landscape across 400+ cities.
+<img width="1255" height="659" alt="image" src="https://github.com/user-attachments/assets/ecd5d1b8-8954-4239-9832-99e82b7724cd" />
 
-### **Total Cities Analyzed:**
+* I analysed data from March to May 2025 to see how often Bengaluru falls into different AQI categories. Most days were rated satisfactory, with a smaller proportion falling into the moderate category. This indicates that Bengaluru may serve as a future expansion market rather than a primary-one.
 
-📌 *400+ major and minor cities* across India were included.
+**6. Disease burden vs AQI**
 
-### **AQI Severity Overview:**
+<img width="1278" height="719" alt="image" src="https://github.com/user-attachments/assets/2125b9e8-c696-4b8d-b336-d999f57d31cb" />
 
-* A significant portion of cities fall into **Poor**, **Very Poor**, or **Severe** categories.
-* Northern cities show consistently higher pollution due to dust load, industrial activity, and winter inversions.
+* Using the last three years of health data, I identified the most reported diseases per state and compared them with average AQI levels. States with higher AQI tend to report more respiratory illnesses like URTI and pneumonia, highlighting the public health relevance of pollution.
 
-### **Top Polluted Cities:**
+**7. EV adoption vs AQI**
 
-Delhi NCR, Ghaziabad, Kanpur, Lucknow, Mumbai suburbs dominate the severe AQI list.
+<img width="1220" height="636" alt="image" src="https://github.com/user-attachments/assets/9e21a9ef-bcd2-425f-a9ad-5bece2ba0c45" />
 
-### **AQI Trend Analysis:**
-
-* AQI declines drastically during **winter months (Nov–Jan)**.
-* A sharp spike is observed around **Diwali** across multiple years.
-
----
-
-# **Pollutant Breakdown & Seasonal Trends**
-
-### **Dominant Pollutants:**
-
-* **PM2.5** and **PM10** are the major contributors to poor air quality.
-* NO₂ and SO₂ show increased concentration in industrial regions.
-
-### **Key Seasonal Insights:**
-
-* PM2.5 peaks in **winter** due to stagnant air and emissions.
-* Coastal cities show lower overall AQI but occasional rises due to traffic density and humidity.
-
-### **Pollution by City Type:**
-
-* Metro cities show **highest PM2.5 correlation** with population density.
-* Industrial clusters show **NO₂ dominance**.
-
----
-
-# **Google Trends Demand Analysis**
-
-To gauge consumer readiness, Google Trends data for 5 years was analyzed.
-
-### **Key Findings:**
-
-* Searches for **“air purifier”** surge by 60–200% in winter months.
-* High search interest seen in **Delhi, Mumbai, Bengaluru, Pune, Hyderabad**.
-* Rising interest in **N95 masks** post-COVID boosts purifier awareness.
-* Rural regions show low awareness → low immediate demand.
-
----
-
-# **Market Opportunity & City Prioritization**
-
-A **Market Opportunity Index** was created using:
-
-* AQI level
-* Seasonal variation intensity
-* Google Trends interest
-* Consumer purchasing power
-* Competition density
-
-### **Top High-Potential Cities:**
-
-1. **Delhi NCR**
-2. **Mumbai**
-3. **Bengaluru**
-4. **Pune**
-5. **Hyderabad**
-6. **Lucknow**
-7. **Patna**
-
-These cities show *high pollution + high demand + strong retail infrastructure*.
-
----
-
-# **Competitor Benchmarking**
-
-Brands analyzed: **Dyson, Philips, Xiaomi, Honeywell, Coway, Sharp**
-
-### **Key Insights:**
-
-* **Dyson** dominates premium segment with advanced filtration.
-* **Philips & Xiaomi** dominate mid-range with HEPA filters.
-* Budget segment lacks **smart features** and **real-time AQI monitoring**.
-* Very few products offer **filter life prediction**, **mobile app control**, or **child lock** at mid-range prices.
-
----
-
-# **Feature Gap Matrix**
-
-A competitive feature matrix was constructed.
-
-### **Missed Features in Current Market:**
-
-* Affordable models lack **real-time AQI display**.
-* Very few offer **filter-life monitoring**.
-* Limited models support **smartphone integration**.
-* Automatic mode performance varies widely.
-* Most budget models lack **activated carbon + HEPA combo** together.
-
-### **Opportunity:**
-
-AirPure can dominate mid-range by adding *smart + safety + efficient* features at an optimal price.
-
----
-
-# **Recommendations for Product Launch**
-
-### **1. Introduce Smart HEPA Air Purifier**
-
-With real-time AQI display, app control, and automatic mode.
-
-### **2. Target High-Risk Cities First**
-
-Delhi, Mumbai, Bengaluru, Pune, Hyderabad.
-
-### **3. Provide Subscription-Based Filter Replacement**
-
-Encourages long-term customer retention.
-
-### **4. Offer Family & Child-Safe Features**
-
-Essential due to rising pollution impact on children.
-
-### **5. Launch Seasonal Marketing Campaigns**
-
-Peak demand months: **October–January**
-
-### **6. Price-Optimized Model Strategy**
-
-Create 2–3 variants:
-
-* Budget Smart Model
-* Mid-Range Smart HEPA Model
-* Premium Activated Carbon + HEPA Combo
-
-
-
+* I compared the top five EV-adopting states with average AQI levels from 2022 to 2025. The results showed that high EV adoption does not always correlate with lower pollution, suggesting that electric vehicles alone cannot reverse poor air quality.
