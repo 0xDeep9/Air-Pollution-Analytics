@@ -13,7 +13,7 @@ How they compare to existing competitors
 
 To solve this, I built a fully navigable insight-rich dashboard and performed both Primary & Secondary analysis to answer 12 complex business questions.
 
-**---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
+**-------------------------------------------------------------------------------------------------------------------------------------------------------**
 
 The following questions were answered using the primary datasets provided from the Dataful platform, focusing on AQI, health impact, vehicle data, and population projections.
 
@@ -37,8 +37,8 @@ The following questions were answered using the primary datasets provided from t
 7️⃣ Top 5 states with highest EV adoption vs average AQI  
 📅 2022–2025
 
-**---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**
+**------------------------------------------------------------------------------------------------------------------------------------------**
+
 The following questions required additional research, external data integration, and behavioral analysis beyond the core AQI dataset.
 
 
@@ -52,8 +52,8 @@ The following questions required additional research, external data integration,
 4️⃣ How aware are Indian citizens of what AQI means — and do they understand its health implications?  
 📊 Based on Google Trends  `
  
-**---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**
+**-------------------------------------------------------------------------------------------------------------------------------------------------**
+
 
 **📊 What I Did**
 
