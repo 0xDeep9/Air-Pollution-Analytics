@@ -59,3 +59,35 @@ The insights from this project provide a **strategic roadmap** for AirPure’s m
 <img width="1220" height="636" alt="image" src="https://github.com/user-attachments/assets/9e21a9ef-bcd2-425f-a9ad-5bece2ba0c45" />
 
 * I compared the top five EV-adopting states with average AQI levels from 2022 to 2025. The results showed that high EV adoption does not always correlate with lower pollution, suggesting that electric vehicles alone cannot reverse poor air quality.
+
+# Recommendations for Product Launch
+
+**1. Introduce Smart HEPA Air Purifier**
+
+* With real-time AQI display, app control, and automatic mode.
+
+**2. Target High-Risk Cities First**
+
+* Delhi, Mumbai, Bengaluru, Pune, Hyderabad.
+
+**3. Provide Subscription-Based Filter Replacement**
+
+* Encourages long-term customer retention.
+
+**4. Offer Family & Child-Safe Features**
+
+* Essential due to rising pollution impact on children.
+
+**5. Launch Seasonal Marketing Campaigns**
+
+* Peak demand months: October–January
+
+**6. Price-Optimized Model Strategy**
+
+Create 2–3 variants:
+
+* Budget Smart Model
+
+* Mid-Range Smart HEPA Model
+
+* Premium Activated Carbon + HEPA Combo
